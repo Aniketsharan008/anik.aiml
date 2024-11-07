@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+        }
+        .login-container {
+            background-color:white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid white;
+            border-radius: 4px;
+        }
+        .submit-button {
+            background-color: #af4c6d;
+            color: white;
+        }
+        .reset-button {
+            background-color: #4636f4;
+            color: white;
+        }
+        
+        .btn:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action=" page.html" method="GET">
+            <p>User Name:<input type="text" name="name" required></p>
+        <p>Password:<input type="password" name="name" required></p>
+        <div class="button-container">
+            <button type="submit" class="button submit-button">Submit</button>
+            <button type="reset" class="button reset-button">Reset</button>
+        </div>
+        
+           
+        </form>
+    </div>
+
+</body>
+</html>
